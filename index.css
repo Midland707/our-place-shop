@@ -43,8 +43,11 @@ a {
   color: inherit;
 }
 
-.header-container {
+.section {
   width: 1440px;
+}
+
+.header-container {
 }
 
 .free-delivery {
@@ -141,7 +144,6 @@ a {
 }
 
 .hero {
-  width: 1440px;
   height: 605px;
 
   background-image: url(/images/hero.jpg);
@@ -201,9 +203,8 @@ a {
 }
 
 .clients {
-  width: 1440px;
   height: 212px;
-  background: #f5f1e9;
+  background-color: #f5f1e9;
 }
 
 .clients-title {
@@ -224,4 +225,89 @@ a {
   margin-top: 45px;
   padding-left: 224px;
   padding-right: 224px;
+}
+
+.about {
+  height: 340px;
+  background-color: #ffffff;
+
+  display: flex;
+  justify-content: center;
+  gap: 135px;
+
+  padding-top: 118px;
+}
+
+.about-title {
+  width: 400px;
+  height: 93px;
+
+  text-align: center;
+  font-size: 41px;
+  font-weight: 700;
+  line-height: 46.2px;
+  letter-spacing: 1.25px;
+}
+
+.about-description {
+  width: 700px;
+  height: 104px;
+
+  color: #4f463f;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.92px;
+}
+
+.constructor {
+  height: 939px;
+  background-color: #fbf6ea;
+}
+
+.constructor-title {
+  padding-top: 70px;
+
+  color: #35312e;
+
+  text-align: center;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.constructor-filter {
+  margin-top: 53px;
+
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.constructor-filter-item {
+  width: 30px;
+  height: 30px;
+}
+
+.constructor-skillet {
+  height: 553px;
+
+  margin-top: 45px;
+
+  background-image: url(/images/desing_skillet.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.constructor-skillet-part{
+  color: #6E6259;
+
+text-align: center;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 15.48px;
+text-transform: uppercase;
 }
