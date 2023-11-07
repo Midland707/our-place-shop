@@ -191,11 +191,37 @@ a {
 
   margin-top: 58px;
 
-  color: #FFF;
+  color: #fff;
 
-text-align: center;
-font-size: 12px;
-font-weight: 700;
-line-height: 20.4px;
-text-transform: uppercase;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20.4px;
+  text-transform: uppercase;
+}
+
+.clients {
+  width: 1440px;
+  height: 212px;
+  background: #f5f1e9;
+}
+
+.clients-title {
+  font-size: 22px;
+  letter-spacing: 1px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  padding-top: 45px;
+}
+
+.clients-avatars {
+  display: flex;
+  gap: 150px;
+  justify-content: space-around;
+
+  margin-top: 45px;
+  padding-left: 224px;
+  padding-right: 224px;
 }
