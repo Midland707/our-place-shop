@@ -1,8 +1,9 @@
 body {
   background-color: #e5e5e5;
   font-family: "Roboto", sans-serif;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.5px;
   font-size: 14px;
+  color: #35312e;
 }
 
 html {
@@ -43,7 +44,7 @@ a {
 }
 
 .header-container {
-  width: 1140px;
+  width: 1440px;
 }
 
 .free-delivery {
@@ -58,15 +59,143 @@ a {
   line-height: 20.4px;
   font-size: 12px;
   font-style: normal;
-  letter-spacing: 0.5px;
   text-transform: uppercase;
 
   padding-top: 10px;
 }
 
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 48px;
+  padding-right: 48px;
+
+  background-color: #ffffff;
+}
+
 .header-nav {
-    height: 82 px;
+  display: flex;
+  align-items: center;
+
+  height: 82px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.nav-item {
+}
+
+.nav-link {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 22.1px;
+  text-transform: uppercase;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.nav-logo {
+  padding: 25px;
+}
+
+.info-links {
+  display: flex;
+  align-items: center;
+}
+
+.info-links-list {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.info-links-item {
+  color: #35312e;
+
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 22.1px;
+  text-transform: uppercase;
+}
+
+.info-link {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.user-logo {
+  width: 35px;
+  height: 35px;
+  margin-left: 35px;
+
+  text-align: center;
+
+  border-radius: 17.5px;
+  background: #c87b5e;
 }
 
 .hero {
+  width: 1440px;
+  height: 605px;
+
+  background-image: url(/images/hero.jpg);
+}
+
+.hero-block {
+  height: 265px;
+  padding: 170px 383px;
+}
+
+.hero-description {
+  color: #35312e;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.hero-title {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 1px;
+
+  margin-top: 9px;
+}
+
+.hero-title-sub {
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: 1px;
+  text-decoration-line: underline;
+
+  margin-top: -9px;
+}
+
+.hero-button {
+  width: 248px;
+  height: 60px;
+
+  border: 0;
+  border-radius: 2px;
+  background: #d37657;
+
+  margin-top: 58px;
+
+  color: #FFF;
+
+text-align: center;
+font-size: 12px;
+font-weight: 700;
+line-height: 20.4px;
+text-transform: uppercase;
 }
